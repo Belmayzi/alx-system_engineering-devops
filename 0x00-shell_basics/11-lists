@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . /alx-system_engineering-devops  /tmp -la 
+ls . /alx-system_engineering-devops  /boot -la 
