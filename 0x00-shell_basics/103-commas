@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -avp | tr '\n' ',' | sed 's/,$/\n/'
+{ printf '%s\n' . ..; ls -A1 | sort -V; } | sed -z 's/\n/,\ /g; s/,$/\n/'
+
